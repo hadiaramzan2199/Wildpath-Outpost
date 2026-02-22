@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+Wildpath Outpost – Frontend Demo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is the frontend demo application for the Wildpath Outpost MVP (Phase 1).
 
-## Get started
+This demo demonstrates:
 
-1. Install dependencies
+Image capture via camera
 
-   ```bash
-   npm install
-   ```
+Image upload from device gallery
 
-2. Start the app
+Preview screen
 
-   ```bash
-   npx expo start
-   ```
+Local save functionality
 
-In the output, you'll find options to open the app in a
+No backend integration is included in this demo build.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🚀 How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/hadiaramzan2199/Wildpath-Outpost.git
+cd Wildpath-Outpost
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2️⃣ Install Dependencies
+Run:
+npm install
+This will install all required packages.
 
-## Get a fresh project
+3️⃣ Start the Expo Development Server
+Run:
+npx expo start
 
-When you're ready, run:
+This will launch the Expo development server and open a browser window with a QR code.
 
-```bash
-npm run reset-project
-```
+📱 Running on Mobile Device
+Option 1 — Using Expo Go (Recommended)
+Install Expo Go from:
+Google Play Store (Android)
+Apple App Store (iOS)
+Open Expo Go on your phone.
+Scan the QR code shown in your terminal or browser.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+The app will load directly on your device.
 
-## Learn more
+Option 2 — iOS Camera Shortcut
+If using iPhone:
+Open the default Camera app.
+Scan the QR code.
+Tap the link that appears.
+It will automatically open in Expo Go.
 
-To learn more about developing your project with Expo, look at the following resources:
+🛠 Tech Stack
+React Native
+Expo
+Expo Router
+TypeScript
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📌 Notes
+This is an MVP demo build focused on validating the image capture → preview → save flow.
+Backend API integration will be implemented in the next development phase.
